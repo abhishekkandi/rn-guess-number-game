@@ -5,6 +5,8 @@ import {
     StyleSheet
  } from 'react-native';
 
+ import Colors from '../constants/colors';
+
  const Header = props => {
      return (
          <View style={styles.header}>
@@ -18,7 +20,7 @@ import {
         width: '100%',
         height: 90,
         paddingTop: 36,//To avoid top notch/Status bar 
-        backgroundColor: '#f7287b',
+        backgroundColor: Colors.primary,
         alignItems: 'center',//On Main axis, By default it is Column in RN as it's mobile display
         justifyContent: 'center'
     },
